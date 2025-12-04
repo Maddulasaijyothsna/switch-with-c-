@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int daynumber;
+    cout << "ENTER A NUMBER BETWEEN 1-7 TO REPRESENT A DAY IN THE WEEK" << endl;
+    cin >> daynumber;
+
+    switch (daynumber) {
+        case 1:
+            cout << "SUNDAY" << endl;
+            break;
+        case 2:
+            cout << "MONDAY" << endl;
+            break;
+        case 3:
+            cout << "TUESDAY" << endl;
+            break;
+        case 4:
+            cout << "WEDNESDAY" << endl;
+            break;
+        case 5:
+            cout << "THURSDAY" << endl;
+            break;
+        case 6:
+            cout << "FRIDAY" << endl;
+            break;
+        case 7:
+            cout << "SATURDAY" << endl;
+            break;
+        default:
+            cout << "YOU ENTERED AN INVALID DAYNUMBER ,PLEASE CHECK AND ENTER AGAIN!!!" << endl;
+    }
+
+    return 0;
+}
